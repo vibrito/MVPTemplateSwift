@@ -2,7 +2,7 @@ Free based on https://github.com/AnasAlhasani/MVP-Swift-Templates
 
 
 # MVP-Swift-Templates
-__MVP (Model View Presenter)__ generator which consists of, (MVP with Service:
+__MVP (Model View Presenter)__ generator which consists of (MVP with Service Class):
 
 * `View` 
 
