@@ -3,6 +3,7 @@
 __Obrigatórios:__
 
 Até 10 Screenshots para o iPhone de 5,5 polegadas(iPhone 8 Plus). Pelo menos 3 são obrigatórios.
+https://help.apple.com/app-store-connect/#/devd274dd925
 
 Pequeno texto promocional de até 170 caracteres que ficaram em cima do texto de descrição.
 
