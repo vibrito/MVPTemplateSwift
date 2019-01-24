@@ -8,22 +8,18 @@
 
 import Foundation
 
-class ___VARIABLE_sceneName___Presenter
-{
+class ___VARIABLE_sceneName___Presenter {
     weak private var aView: ___VARIABLE_sceneName___View?
-    
-    init()
-    {
-        
+
+    init() {
+
     }
-    
-    func attachView(view: ___VARIABLE_sceneName___View)
-    {
+
+    func attachView(view: ___VARIABLE_sceneName___View) {
         aView = view
     }
-    
-    func detachView()
-    {
+
+    func detachView() {
         aView = nil
     }
 }

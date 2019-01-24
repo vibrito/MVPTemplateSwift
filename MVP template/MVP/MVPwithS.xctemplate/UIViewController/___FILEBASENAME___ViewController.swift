@@ -8,32 +8,26 @@
 
 import UIKit
 
-class ___VARIABLE_sceneName___ViewController: UIViewController
-{
+class ___VARIABLE_sceneName___ViewController: UIViewController {
     private var presenter = ___VARIABLE_sceneName___Presenter(service: ___VARIABLE_sceneName___Service())
 
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         presenter.attachView(view: self)
     }
 }
 
-extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___View
-{
-    func startLoading()
-    {
-        
+extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___View {
+    func startLoading() {
+
     }
-    
-    func finishLoading()
-    {
-        
+
+    func finishLoading() {
+
     }
-    
-    func showError()
-    {
-        
+
+    func showError() {
+
     }
 }

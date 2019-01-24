@@ -8,8 +8,6 @@
 
 import UIKit
 
-class ___VARIABLE_sceneName___Service
-{
+class ___VARIABLE_sceneName___Service {
 
 }
-

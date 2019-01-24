@@ -8,8 +8,7 @@
 
 import Foundation
 
-protocol ___VARIABLE_sceneName___View: NSObjectProtocol
-{
+protocol ___VARIABLE_sceneName___View: NSObjectProtocol {
     func startLoading()
     func finishLoading()
     func showError()

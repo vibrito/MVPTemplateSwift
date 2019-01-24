@@ -7,32 +7,26 @@ __MVP (Model View Presenter)__ generator which consists of (MVP with Service Cla
 * `View` 
 
 ```swift
-class LoginViewController: UIViewController
-{    
+class LoginViewController: UIViewController {    
     private var presenter = LoginPresenter(service: LoginService())
 
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
         
         presenter.attachView(view: self)
     }
 }
 
-extension LoginViewController: LoginView
-{
-    func startLoading()
-    {
+extension LoginViewController: LoginView {
+    func startLoading() {
         
     }
     
-    func finishLoading()
-    {
+    func finishLoading() {
         
     }
     
-    func showError()
-    {
+    func showError() {
         
     }
 }
@@ -42,23 +36,19 @@ extension LoginViewController: LoginView
 * `Presenter`
 
 ```swift
-class LoginPresenter
-{
+class LoginPresenter {
     weak private var aView: LoginView?
     private let aService: LoginService
     
-    init(service: LoginService)
-    {
+    init(service: LoginService) {
         self.aService = service
     }
     
-    func attachView(view: LoView)
-    {
+    func attachView(view: LoView) {
         aView = view
     }
     
-    func detachView()
-    {
+    func detachView() {
         aView = nil
     }
 }
@@ -67,8 +57,7 @@ class LoginPresenter
 * `Model`
 
 ```swift
-protocol LoginView: NSObjectProtocol
-{
+protocol LoginView: NSObjectProtocol {
     func startLoading()
     func finishLoading()
     func showError()
@@ -78,8 +67,7 @@ protocol LoginView: NSObjectProtocol
 * `Service`
 
 ```swif
-class LoginService
-{
+class LoginService {
 
 }
 ```
